@@ -5,7 +5,7 @@
 #include <string.h>
 #include <ctype.h>
 
-void luhn_validtor(void);
+int luhn_validator(const char *card_number);
 
 #endif
 

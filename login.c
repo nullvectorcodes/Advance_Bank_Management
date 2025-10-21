@@ -7,6 +7,8 @@ int main(){
     int pin = 0;
     printf("Enter Account Number: ");
     scanf("%19s",acc_num);
+    printf("Enter PIN: ");
+    scanf("%d",&pin);
 
     if (valid){
         printf("It's Valid!\n");
@@ -15,8 +17,5 @@ int main(){
         printf("Itsn't Valid!\n");
     }
 
-    printf("Enter PIN: ");
-    scanf("%d",&pin);
-    
     return 0;
 }

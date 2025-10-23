@@ -8,8 +8,7 @@ int main(){
     int valid = 0;
     char acc_num[20] = {0};
     printf("Enter Account Number: ");
-    scanf("%19s",acc_num);
-    valid  = luhn_validator(acc_num);
+    scanf("%20s",acc_num);
 
     if (valid){
         printf("Enter PIN: ");
@@ -20,7 +19,7 @@ int main(){
     }
     }
     else{
-        printf("\nThe Card Isn't Valid!\n");
+        printf("\nThe Card Isn't Vlid!\n");
     }
 
     return 0;

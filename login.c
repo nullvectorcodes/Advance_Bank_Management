@@ -17,11 +17,10 @@ int main(){
         pin[i] = ch;
         printf("*");
         i++;
-    }
+        }
     }
     else{
         printf("\nThe Card Isn't Valid!\n");
     }
-
     return 0;
 }

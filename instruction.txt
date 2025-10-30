@@ -1,0 +1,6 @@
+To run file with mutliple files linked 
+Like login.c
+
+Do this :
+    gcc login.c luhn_algo.c -o app
+    ./app
